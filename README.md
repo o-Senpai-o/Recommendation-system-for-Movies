@@ -49,7 +49,7 @@ Understand the working of Recommendation system. The end goal was to predict wha
   - based on item-item similarity we got similar movies 
   - Below is a list of similar movies for a movie with same genre (DRACULA)
     ![movie](images/similarmovies.png)
-  - model tree
+  - ### model tree
     ![models](images/models.png)
   - we use Surprise models output as features for XGBoost regressor
   
