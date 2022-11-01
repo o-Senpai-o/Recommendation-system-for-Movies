@@ -43,8 +43,8 @@ Understand the working of Recommendation system. The end goal was to predict wha
     - Dates have the format YYYY-MM-DD.
     
 ### Features
-    - Below are the features
-    ![features](images/features.png)
+   - Below are the features
+   ![features](images/features.png)
     
 ### Modelling
   - based on item-item similarity we got similar movies 
