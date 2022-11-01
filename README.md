@@ -22,6 +22,7 @@ Understand the working of Recommendation system. The end goal was to predict wha
 ### Machine Learning Problem
 - given user, movie predict what rating this use would give to this movie 
 - This boils down to a Regression problem
+- ![netflix](images/netflix.png
 
 ### Data Overview
 - Source : https://www.kaggle.com/netflix-inc/netflix-prize-data/data
@@ -40,10 +41,19 @@ Understand the working of Recommendation system. The end goal was to predict wha
     - CustomerIDs range from 1 to 2649429, with gaps. There are 480189 users.
     - Ratings are on a five star (integral) scale from 1 to 5.
     - Dates have the format YYYY-MM-DD.
-
+    
+### Features
+    - Below are the features
+    ![features](images/features.png)
+    
 ### Modelling
+  - based on item-item similarity we got similar movies 
+  - Below is a list of similar movies for a movie with same genre (DRACULA)
+    ![movie](images/similar)
   - model tree
-    ![models](images/model)
+    ![models](images/models.png)
+  - we use Surprise models output as features for XGBoost regressor
+  
 ### References
 - https://www.netflixprize.com/rules.html
 - https://www.kaggle.com/netflix-inc/netflix-prize-data
